@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Llene el formulario siguiente</h1>
+    <!--Inicio formulario de envio-->
+    <form action="formulariophp.php" method="POST">
+        <!--Iniciar tabla de formulario-->
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre de la persona: </label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="nombre" placeholder="David"></td>
+            </tr>
+            <tr>
+                <td>Contrato:</td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="contrato" rows="10" cols="50">En la ciudad de [....], se acuerda entre la Empresa [....] representada por el Sr. [....] en su carácter de Apoderado, con domicilio en la calle [....] y el Sr. [....], futuro empleado con domicilio en [....], celebrar el presente contrato a Plazo Fijo, de acuerdo a la normativa vigente de los articulos 90, 92, 93, 94, 95 y concordantes de la Ley de Contrato de Trabajo No. 20744.</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Enviar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Llene el formulario siguiente</h1>
+    <!--Inicio formulario de envio-->
+    <form action="formulariophp.php" method="POST">
+        <!--Iniciar tabla de formulario-->
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre de la persona</label></td>
+                <td><input type="text" name="nombre" placeholder="David"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">Dirección</label></td>
+                <td><input type="text" name="direccion"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">Jamón y queso</label></td>
+                <td><input type="checkbox" value="jamon_queso" name="pizza1"></td>
+                <td><label for="nombre">Cantidad</label></td>
+                <td><input type="number" name="cantidad_jamon"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">Napolitana</label></td>
+                <td><input type="checkbox" value="napolitana" name="pizza2"></td>
+                <td><label for="nombre">Cantidad</label></td>
+                <td><input type="number" name="cantidad_napolitana"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">Mozzarella</label></td>
+                <td><input type="checkbox" value="mozzarella" name="pizza3"></td>
+                <td><label for="nombre">Cantidad</label></td>
+                <td><input type="number" name="cantidad_mozzarella"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Enviar"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

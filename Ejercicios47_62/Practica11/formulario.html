@@ -1,0 +1,41 @@
+
+<html lang="en">
+
+<head>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Llene el formulario siguiente</h1>
+    <!--Inicio formulario de envio-->
+    <form action="formulariophp.php" method="POST">
+        <!--Iniciar tabla de formulario-->
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre de la persona</label></td>
+                <td><input type="text" name="nombre" placeholder="David"></td>
+            </tr>
+            <tr>
+                <td>Escolaridad de la persona:</td><br>
+            </tr>
+            <tr>
+                <td><label for="nombre">No tiene estudios</label></td>
+                <td><input type="radio" value="no tiene estudios" name="opciones"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">Estudios primarios</label></td>
+                <td><input type="radio" value="estudios primarios" name="opciones"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">Estudios secundarios</label></td>
+                <td><input type="radio" value="estudios secundarios" name="opciones"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Enviar"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

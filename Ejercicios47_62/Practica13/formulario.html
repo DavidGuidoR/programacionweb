@@ -1,0 +1,41 @@
+
+<html lang="en">
+
+<head>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Llene el formulario siguiente</h1>
+    <!--Inicio formulario de envio-->
+    <form action="formulariophp.php" method="POST">
+        <!--Iniciar tabla de formulario-->
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre de la persona</label></td>
+                <td><input type="text" name="nombre" placeholder="David"></td>
+            </tr>
+            <tr>
+                <td>Deportes que practica:</td><br>
+            </tr>
+            <tr>
+                <td><label for="nombre">1-1000</label></td>
+                <td><input type="radio" value="1-1000" name="opciones[]"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">1001-3000</label></td>
+                <td><input type="radio" value="1001-3000" name="opciones[]"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">>3000</label></td>
+                <td><input type="radio" value="mas de 3000" name="opciones[]"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Enviar"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
